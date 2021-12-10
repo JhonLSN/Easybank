@@ -10,9 +10,38 @@
       &-list {
         display: flex;
 
-        &-option{
-          margin-right: 10px; 
+        &-option {
+          margin-right: 30px;
+          color: #a4a5a9;
+          transition: all ease 0.3s;
+
+          &:hover {
+            color: #000;
+            transition: all ease 0.3s;
+          }
+
+          &--change {
+            margin-right: 0;
+            color: #a4a5a9;
+            transition: all ease 0.3s;
+
+            &:hover {
+              color: #000;
+              transition: all ease 0.3s;
+            }
+          }
         }
+      }
+    }
+
+    &__invite-btn {
+      color: #fff;
+      padding: 15px 25px;
+      border-radius: 30px;
+      background: linear-gradient(60deg, #30ce6c, #2dbbc8);
+      
+      &:hover{
+        background: linear-gradient(120deg, #84e1a8, #81d5df);
       }
     }
   }
