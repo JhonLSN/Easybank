@@ -1,7 +1,19 @@
-.header{
-  &__wrapper{
+.header {
+  padding: 20px 0;
+  &__wrapper {
     display: flex;
-    flex-direction: column;
-    font-family: 'Public Sans', sans-serif;
+    font-family: "Public Sans", sans-serif;
+    align-items: center;
+    justify-content: space-around;
+
+    &__navigation {
+      &-list {
+        display: flex;
+
+        &-option{
+          margin-right: 10px;
+        }
+      }
+    }
   }
 }
