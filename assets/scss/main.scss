@@ -60,4 +60,19 @@ $White: hsl(0, 0%, 100%);
       }
     }
   }
+
+  &__reason {
+    background-color: $LightGrayishBlue;
+    padding: 100px 50px;
+
+    &__benefit{
+      position: relative;
+      padding-bottom: 20px;
+      width: 45vw;
+    }
+
+    &__list{
+
+    }
+  }
 }

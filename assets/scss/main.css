@@ -71,4 +71,15 @@
   -webkit-transform: translate(140px, -50px);
           transform: translate(140px, -50px);
 }
+
+.main__reason {
+  background-color: #f3f4f6;
+  padding: 100px 50px;
+}
+
+.main__reason__benefit {
+  position: relative;
+  padding-bottom: 20px;
+  width: 45vw;
+}
 /*# sourceMappingURL=main.css.map */
