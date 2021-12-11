@@ -89,4 +89,22 @@ table {
   margin-left: 20px;
   color: #9698a6;
 }
+
+.header__navigation-option:hover::after {
+  width: 100%;
+}
+
+.header__navigation-option::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  bottom: -35px;
+  width: 0;
+  height: 4px;
+  background: #9698a6;
+  -webkit-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+}
 /*# sourceMappingURL=bundles.css.map */

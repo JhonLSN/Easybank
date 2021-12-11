@@ -18,15 +18,33 @@ $White: hsl(0, 0%, 100%);
   width: 100vw;
   font-family: "Public Sans", sans-serif;
 
-  &__navigation{
-    & li{
+  &__navigation {
+    & li {
       display: inline-block;
     }
 
-    &-option{
+    &-option {
       position: relative;
       margin-left: 20px;
       color: $GrayishBlue;
+
+      &:hover{
+        &::after{
+          width: 100%;
+        }
+      }
+
+      &::after {
+        content: "";
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -35px;
+        width: 0;
+        height: 4px;
+        background: $GrayishBlue;
+        transition: all ease 0.5s;
+      }
     }
   }
 }
