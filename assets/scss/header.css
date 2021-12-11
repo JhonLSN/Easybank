@@ -43,4 +43,12 @@
   -webkit-transition: all ease 0.5s;
   transition: all ease 0.5s;
 }
+
+.header .dropdown-togle {
+  display: none;
+  outline: none;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
 /*# sourceMappingURL=header.css.map */

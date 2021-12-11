@@ -1,46 +1,51 @@
-// .main {
-//   display: flex;
-//   flex-direction: column;
+// Variables Colors
+$Dark: hsl(233, 26%, 24%);
+$LimeGreen: hsl(136, 65%, 51%);
+$BrightCyan: hsl(192, 70%, 51%);
+$GrayishBlue: hsl(233, 8%, 62%);
+$LightGrayishBlue: hsl(220, 16%, 96%);
+$VeryLightGray: hsl(0, 0%, 98%);
+$White: hsl(0, 0%, 100%);
 
-//   &__digital-bank {
-//     display: flex;
-//     align-items: center;
+.main {
+  &__details {
+    background-color: $VeryLightGray;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow-x: hidden;
 
-//     &__description {
-//       &-title {
-//         font-size: 3rem;
-//         color: #2d314e;
-//       }
+    &__brief {
+      display: flex;
+      flex-direction: column;
+      width: 70%;
+      transform: translate(40%, -40%);
 
-//       &-paragraph {
-//         color: #a4a5a9;
-//         width: 60%;
-//         margin: 30px 0;
-//         font-size: 1.2rem;
-//         line-height: 25px;
-//       }
+      &-title{
+        font-size: 40px;
+        margin-bottom: 20px;
+      }
 
-//       &-anchor {
-//         margin-top: 50px;
-//         &-invite-btn {
-//           color: #fff;
-//           padding: 15px 25px;
-//           border-radius: 30px;
-//           background: linear-gradient(60deg, #30ce6c, #2dbbc8);
+      &-btn{
+        display: grid;
+        border: none;
+        outline: none;
+        all: unset;
+        width: 8em;
+        background: linear-gradient(to right, $LimeGreen, $BrightCyan);
+        color: $White;
+        margin: 20px 0;
+        padding: 15px 30px;
+        border-radius: 40px;
+        cursor: pointer;
+      }
+    }
 
-//           &:hover {
-//             background: linear-gradient(120deg, #84e1a8, #81d5df);
-//           }
-//         }
-//       }
-//     }
-
-//     &__background {
-//       background-image: url(../img/bg-intro-desktop.svg);
-
-//       & img {
-//         width: 100%;
-//       }
-//     }
-//   }
-// }
+    &__mockup {
+      background: url(../img/bg-intro-desktop.svg);
+    }
+  }
+}

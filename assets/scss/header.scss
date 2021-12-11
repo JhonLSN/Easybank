@@ -47,4 +47,12 @@ $White: hsl(0, 0%, 100%);
       }
     }
   }
+
+  & .dropdown-toggle{
+    display: none;
+    outline: none;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+  }
 }
