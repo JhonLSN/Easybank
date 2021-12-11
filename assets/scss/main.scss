@@ -108,6 +108,31 @@ $White: hsl(0, 0%, 100%);
       display: flex;
       justify-content: space-between;
       gap: 1em;
+
+      & .article_card{
+        background: $White;
+        border-radius: 10px;
+        overflow: hidden;
+
+        & img{
+          width: 100%;
+          height: 200px;
+          padding-bottom: 20px;
+        }
+
+        & .card_bory{
+          padding: 20px;
+        }
+
+        & .postedBy{
+          margin: 10px 0;
+        }
+
+        & .article-title{
+          font-size: 20px;
+          padding: 10px 0;
+        }
+      }
     }
   }
 }
