@@ -40,5 +40,38 @@ $White: hsl(0, 0%, 100%);
         }
       }
     }
+
+    &__invite-btn{
+      display: none;
+    }
+
+    & .active{
+      opacity: 1;
+    }
+
+    & .dropdown-toggle{
+      display: block;
+    }
+  }
+
+  .main{
+    &__details{
+      all: unset;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background: $LightGrayishBlue;
+
+      &__brief{
+        width: 100%;
+        transform: translate(0);
+        padding: 0 40px;
+      }
+
+      &__mockup{
+
+      }
+    }
   }
 }
