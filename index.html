@@ -13,30 +13,42 @@
 <body>
   <header class="header">
     <div class="header__wrapper">
-      <img src="assets/img/logo.svg" alt="Easybank" title="Easybank">
-      <nav class="header__wrapper__navigation">
-        <ul class="header__wrapper__navigation-list">
-          <li><a class="header__wrapper__navigation-list-option" href="#">Início</a></li>
-          <li><a class="header__wrapper__navigation-list-option" href="#">Sobre</a></li>
-          <li><a class="header__wrapper__navigation-list-option" href="#">Contato</a></li>
-          <li><a class="header__wrapper__navigation-list-option" href="#">Blog</a></li>
-          <li><a class="header__wrapper__navigation-list-option--change" href="#">Carreira</a></li>
-        </ul>
-      </nav>
-      <a class="header__wrapper__invite-btn" href="#">Solicitar Convite</a>
+      <div class="header__wrapper-logo">
+        <img src="assets/img/logo.svg" alt="Easybank" title="Easybank">
+      </div>
+      <ul class="header__wrapper__navigation">
+        <li><a class="header__wrapper__navigation-option" href="#">Início</a></li>
+        <li><a class="header__wrapper__navigation-option" href="#">Sobre</a></li>
+        <li><a class="header__wrapper__navigation-option" href="#">Contato</a></li>
+        <li><a class="header__wrapper__navigation-option" href="#">Blog</a></li>
+        <li><a class="header__wrapper__navigation-option--change" href="#">Carreira</a></li>
+      </ul>
+      <button class="header__wrapper__invite-btn">Solicitar Convite</button>
+      <button class="dropdown-togle"><img src="assets/img/icon-hamburger.svg" alt="icon-hamburger"></button>
     </div>
   </header>
+
   <main class="main">
-    <section class="main__digital-bank">
-      <div class="main__digital-bank__description">
-        <h1 class="main__digital-bank__description-title">Banco digital<br>de última geração</h1>
-        <p class="main__digital-bank__description-paragraph">Faça sua vida financeira online. Sua conta Easybank será um balcão único para gastar, economizar, fazer orçamento, investir e muito mais.</p>
-        <div class="main__digital-bank__description-anchor">
-          <a class="main__digital-bank__description-anchor-invite-btn" href="#">Solicitar Convite</a>
-        </div>
+    <section class="main__details">
+      <div class="main__details__brief">
+        <h1 class="main__details__brief-title">Banco digital<br>de última geração</h1>
+        <p class="main__details__brief-paragraph">Faça sua vida financeira online. Sua conta Easybank será um balcão único para gastar, economizar, fazer orçamento, investir e muito mais.</p>
+        <button class="main__details__brief-btn">Solicitar Convite</button>        
       </div>
-      <div class="main__digital-bank__background">
+      <div class="main__details__mockup">
         <img src="assets/img/image-mockups.png" alt="image-mockups" title="image-mockups">
+      </div>
+    </section>
+    <section class="main__reason">
+      <div class="main__reason__benefit">
+        <h1 class="main__reason__benefit-title">Por que escolher Easybank?</h1>
+        <p class="main__reason__benefit-paragraph">We leverage open Banking to turn your bank account into your financial hub. Control your finances like never before.</p>
+      </div>
+      <div class="main__reason__list">
+        <div class="main__reason__list__online-banking">
+          <h2>Online Banking</h2>
+          <p></p>
+        </div>
       </div>
     </section>
   </main>
