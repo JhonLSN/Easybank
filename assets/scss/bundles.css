@@ -344,4 +344,40 @@ span, p {
   color: #9698a6;
   font-weight: 100;
 }
+
+@media screen and (max-width: 765px) {
+  .header {
+    padding: 30px 40px;
+  }
+  .header__navigation {
+    position: absolute;
+    top: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background: white;
+    width: 80%;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  .header__navigation li {
+    margin: 20px 0;
+  }
+  .header__navigation-option {
+    color: #2d314d;
+    font-weight: 900;
+    font-size: 20px;
+  }
+}
 /*# sourceMappingURL=bundles.css.map */
