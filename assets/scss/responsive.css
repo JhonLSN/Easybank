@@ -100,11 +100,19 @@
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .main__reason div {
+    margin: auto;
+    width: 90%;
+    text-align: center;
+  }
   .main__articles {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  .main__articles-title {
+    text-align: center;
   }
   .main__articles__list {
     -webkit-box-orient: vertical;
@@ -120,6 +128,10 @@
   }
   .main__articles__list .article_card .card_body {
     padding: 10px 20px 40px 20px;
+  }
+  .main__articles__list .article_card .card_body .article_title {
+    margin: 10px 0;
+    width: 80%;
   }
   .footer {
     -webkit-box-orient: vertical;
