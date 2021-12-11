@@ -1,6 +1,6 @@
 .header {
   background-color: white;
-  padding: 5px 50px;
+  padding: 0px 50px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -44,7 +44,23 @@
   transition: all ease 0.5s;
 }
 
-.header .dropdown-togle {
+.header__invite-btn {
+  display: -ms-grid;
+  display: grid;
+  border: none;
+  outline: none;
+  all: unset;
+  width: 8em;
+  background: -webkit-gradient(linear, left top, right top, from(#31d35c), to(#2bb7da));
+  background: linear-gradient(to right, #31d35c, #2bb7da);
+  color: white;
+  margin: 20px 0;
+  padding: 10px 20px;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+.header .dropdown-toggle {
   display: none;
   outline: none;
   border: none;

@@ -46,6 +46,18 @@ $White: hsl(0, 0%, 100%);
 
     &__mockup {
       background: url(../img/bg-intro-desktop.svg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position-x: 50px;
+      background-position-y: -80px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      & img{
+        width: 80%;
+        transform: translate(140px, -50px);
+      }
     }
   }
 }

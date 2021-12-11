@@ -9,7 +9,7 @@ $White: hsl(0, 0%, 100%);
 
 .header {
   background-color: $White;
-  padding: 5px 50px;
+  padding: 0px 50px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -28,8 +28,8 @@ $White: hsl(0, 0%, 100%);
       margin-left: 20px;
       color: $GrayishBlue;
 
-      &:hover{
-        &::after{
+      &:hover {
+        &::after {
           width: 100%;
         }
       }
@@ -48,7 +48,21 @@ $White: hsl(0, 0%, 100%);
     }
   }
 
-  & .dropdown-toggle{
+  &__invite-btn {
+    display: grid;
+    border: none;
+    outline: none;
+    all: unset;
+    width: 8em;
+    background: linear-gradient(to right, $LimeGreen, $BrightCyan);
+    color: $White;
+    margin: 20px 0;
+    padding: 10px 20px;
+    border-radius: 40px;
+    cursor: pointer;
+  }
+
+  & .dropdown-toggle {
     display: none;
     outline: none;
     border: none;
