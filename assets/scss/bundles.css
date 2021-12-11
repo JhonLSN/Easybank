@@ -174,4 +174,51 @@ span, p {
   padding-bottom: 20px;
   width: 45vw;
 }
+
+.main__reason__benefit-title {
+  font-size: 40px;
+  margin: 20px 0;
+}
+
+.main__reason__benefit-paragraph {
+  color: #9698a6;
+}
+
+.main__reason__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 1.5em;
+}
+
+.main__reason__list img {
+  padding: 10px 0;
+}
+
+.main__reason__list h2 {
+  padding: 15px 0;
+}
+
+.main__articles {
+  padding: 100px 50px;
+  background: #fafafa;
+}
+
+.main__articles-title {
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+
+.main__articles__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 1em;
+}
 /*# sourceMappingURL=bundles.css.map */
