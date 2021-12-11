@@ -12,8 +12,9 @@ body {
   font-family: 'Public Sans', sans-serif;
 }
 
-a {
+a, ul, li {
   text-decoration: none;
+  list-style: none;
 }
 
 span, p {

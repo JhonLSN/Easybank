@@ -7,19 +7,80 @@ $LightGrayishBlue: hsl(220, 16%, 96%);
 $VeryLightGray: hsl(0, 0%, 98%);
 $White: hsl(0, 0%, 100%);
 
-.footer{
+.footer {
   background-color: $Dark;
   display: flex;
   justify-content: space-between;
   padding: 10px 50px;
 
-  &-one{
+  &-one {
     display: flex;
     justify-content: space-between;
     flex-basis: 50%;
+
+    &__link {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      & img {
+        color: #fff;
+        padding-bottom: 20px;
+      }
+
+      &-list {
+        & li {
+          display: inline-block;
+          margin-right: 10px;
+        }
+      }
+    }
+
+    &__nav-1 {
+      & li {
+        margin: 10px 0;
+
+        & a {
+          color: $LightGrayishBlue;
+          font-size: 15px;
+        }
+      }
+    }
+
+    &__nav-2 {
+      & li {
+        margin: 10px 0;
+
+        & a {
+          color: $LightGrayishBlue;
+          font-size: 15px;
+        }
+      }
+    }
   }
 
-  &-two{
+  &-two {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
 
+    &__invite-btn {
+      display: grid;
+      border: none;
+      outline: none;
+      all: unset;
+      width: 8em;
+      background: linear-gradient(to right, $LimeGreen, $BrightCyan);
+      color: $White;
+      margin: 20px 0;
+      padding: 10px 20px;
+      border-radius: 40px;
+      cursor: pointer;
+    }
+
+    &__title {
+      color: $GrayishBlue;
+      font-weight: 100;
+    }
   }
 }
