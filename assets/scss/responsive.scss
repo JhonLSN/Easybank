@@ -84,6 +84,32 @@ $White: hsl(0, 0%, 100%);
 
         & img{
           width: 100%;
+          transform: translate(0, -90px);
+        }
+      }
+    }
+
+    &__reason{
+      padding: 40px;
+      width: 100vw;
+
+      &__list{
+        flex-direction: column;
+      }
+    }
+
+    &__articles{
+      flex-direction: column;
+
+      &__list{
+        flex-direction: column;
+
+        & .article_card{
+          width: 100%;
+
+          & img{
+            height: 300px;
+          }
         }
       }
     }
