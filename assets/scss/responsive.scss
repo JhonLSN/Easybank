@@ -110,8 +110,45 @@ $White: hsl(0, 0%, 100%);
           & img{
             height: 300px;
           }
+
+          & .card_body{
+            padding: 10px 20px 40px 20px;
+          }
         }
       }
+    }
+  }
+
+  .footer{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+
+    &-one{
+      flex-direction: column;
+
+      &__nav-1{
+        text-align: center;
+
+        & li{
+          margin-top: 20px 0;
+        }
+      }
+
+      &__nav-2{
+        text-align: center;
+        margin-top: -20px;
+
+        & li{
+          margin-top: 20px 0;
+        }
+      }
+    }
+
+    &-two{
+      justify-content: center;
+      align-items: center;
     }
   }
 }

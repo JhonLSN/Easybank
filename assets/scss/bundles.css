@@ -465,5 +465,48 @@ span, p {
   .main__articles__list .article_card img {
     height: 300px;
   }
+  .main__articles__list .article_card .card_body {
+    padding: 10px 20px 40px 20px;
+  }
+  .footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 40px;
+  }
+  .footer-one {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .footer-one__nav-1 {
+    text-align: center;
+  }
+  .footer-one__nav-1 li {
+    margin-top: 20px 0;
+  }
+  .footer-one__nav-2 {
+    text-align: center;
+    margin-top: -20px;
+  }
+  .footer-one__nav-2 li {
+    margin-top: 20px 0;
+  }
+  .footer-two {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
 }
 /*# sourceMappingURL=bundles.css.map */
