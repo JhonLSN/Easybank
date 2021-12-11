@@ -60,17 +60,31 @@ $White: hsl(0, 0%, 100%);
       display: flex;
       justify-content: center;
       align-items: center;
-      flex-direction: column;
+      flex-direction: column-reverse;
       background: $LightGrayishBlue;
 
       &__brief{
         width: 100%;
         transform: translate(0);
         padding: 0 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        &-title{
+          width: 95%;
+        }
       }
 
       &__mockup{
+        background-size: 100%;
+        background-position-x: 120px;
+        background-position-y: 30px;
 
+        & img{
+          width: 100%;
+        }
       }
     }
   }
