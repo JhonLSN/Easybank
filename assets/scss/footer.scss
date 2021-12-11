@@ -84,3 +84,12 @@ $White: hsl(0, 0%, 100%);
     }
   }
 }
+
+.footer-credits{ 
+  background: #1c1f30;
+  padding: 10px 0; 
+  
+  & p{
+    text-align: center;
+  }
+}

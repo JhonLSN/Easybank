@@ -94,4 +94,13 @@
   color: #9698a6;
   font-weight: 100;
 }
+
+.footer-credits {
+  background: #1c1f30;
+  padding: 10px 0;
+}
+
+.footer-credits p {
+  text-align: center;
+}
 /*# sourceMappingURL=footer.css.map */

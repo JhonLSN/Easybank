@@ -123,6 +123,8 @@ span, p {
 
 .main__details__brief-title {
   font-size: 40px;
+  color: #2d314d;
+  font-weight: 100;
   margin-bottom: 20px;
 }
 
@@ -178,6 +180,8 @@ span, p {
 
 .main__reason__benefit-title {
   font-size: 40px;
+  color: #2d314d;
+  font-weight: 100;
   margin: 20px 0;
 }
 
@@ -201,6 +205,8 @@ span, p {
 
 .main__reason__list h2 {
   padding: 15px 0;
+  color: #2d314d;
+  font-weight: 100;
 }
 
 .main__articles {
@@ -211,6 +217,8 @@ span, p {
 .main__articles-title {
   font-size: 35px;
   margin-bottom: 30px;
+  color: #2d314d;
+  font-weight: 100;
 }
 
 .main__articles__list {
@@ -243,9 +251,11 @@ span, p {
   margin: 10px 0;
 }
 
-.main__articles__list .article_card .article-title {
+.main__articles__list .article_card .article_title {
   font-size: 20px;
-  padding: 10px 0;
+  color: #2d314d;
+  font-weight: 100;
+  padding: 5px 0;
 }
 
 .footer {
@@ -345,6 +355,15 @@ span, p {
   font-weight: 100;
 }
 
+.footer-credits {
+  background: #1c1f30;
+  padding: 10px 0;
+}
+
+.footer-credits p {
+  text-align: center;
+}
+
 @media screen and (max-width: 765px) {
   .header {
     padding: 30px 40px;
@@ -370,6 +389,9 @@ span, p {
     padding: 40px;
     border-radius: 10px;
     text-align: center;
+    opacity: 0;
+    -webkit-transition: all ease-in-out .5s;
+    transition: all ease-in-out .5s;
   }
   .header__navigation li {
     margin: 20px 0;
