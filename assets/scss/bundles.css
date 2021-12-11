@@ -108,4 +108,20 @@ table {
 .header__wrapper__invite-btn:hover {
   background: linear-gradient(120deg, #84e1a8, #81d5df);
 }
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main__digital-bank {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
 /*# sourceMappingURL=bundles.css.map */
