@@ -8,7 +8,7 @@
 <p>
 
 <h1 align="center" display="flex">
-  <img src="https://user-images.githubusercontent.com/80855598/144759716-adb70140-078a-485e-97eb-3fd2159ba6f0.png" width="80%" alt="Splitter" title="Splitter">
+  <img src="https://user-images.githubusercontent.com/80855598/145720132-3397beaf-dfd8-4429-832e-69961949b0fa.png" width="80%" alt="Easybank" title="Easybank">
 </h1>
 
 ## :book: Sobre
