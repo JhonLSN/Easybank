@@ -11,6 +11,20 @@ $White: hsl(0, 0%, 100%);
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
+
+	::-webkit-scrollbar-track {
+		background: $Dark;
+		transition: all ease .6s;
+	}
+	::-webkit-scrollbar {
+		width: 6px;
+		background: #f4f4f4;
+		transition: all ease .6s;
+	}
+	::-webkit-scrollbar-thumb {
+		background: linear-gradient(to right, #31d35c, #2bb7da);
+		transition: all ease .6s;
+	}
 }
 
 body {

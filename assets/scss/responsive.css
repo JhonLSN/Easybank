@@ -23,6 +23,7 @@
     padding: 40px;
     border-radius: 10px;
     text-align: center;
+    visibility: hidden;
     opacity: 0;
     -webkit-transition: all ease-in-out .5s;
     transition: all ease-in-out .5s;
@@ -43,6 +44,7 @@
   }
   .header .active {
     opacity: 1;
+    visibility: visible;
   }
   .header .dropdown-toggle {
     display: block;

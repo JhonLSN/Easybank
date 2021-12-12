@@ -12,7 +12,6 @@
       -ms-flex-align: center;
           align-items: center;
   position: relative;
-  overflow-x: hidden;
 }
 
 .main__details__brief {

@@ -23,6 +23,7 @@ $White: hsl(0, 0%, 100%);
       padding: 40px;
       border-radius: 10px;
       text-align: center;
+      visibility: hidden;
       opacity: 0;
       transition: all ease-in-out .5s;
 
@@ -47,6 +48,7 @@ $White: hsl(0, 0%, 100%);
 
     & .active {
       opacity: 1;
+      visibility: visible;
     }
 
     & .dropdown-toggle {

@@ -5,6 +5,26 @@
           box-sizing: border-box;
 }
 
+* ::-webkit-scrollbar-track {
+  background: #2d314d;
+  -webkit-transition: all ease .6s;
+  transition: all ease .6s;
+}
+
+* ::-webkit-scrollbar {
+  width: 6px;
+  background: #f4f4f4;
+  -webkit-transition: all ease .6s;
+  transition: all ease .6s;
+}
+
+* ::-webkit-scrollbar-thumb {
+  background: -webkit-gradient(linear, left top, right top, from(#31d35c), to(#2bb7da));
+  background: linear-gradient(to right, #31d35c, #2bb7da);
+  -webkit-transition: all ease .6s;
+  transition: all ease .6s;
+}
+
 body {
   position: relative;
   overflow-x: hidden;
@@ -105,7 +125,6 @@ span, p {
       -ms-flex-align: center;
           align-items: center;
   position: relative;
-  overflow-x: hidden;
 }
 
 .main__details__brief {
@@ -389,6 +408,7 @@ span, p {
     padding: 40px;
     border-radius: 10px;
     text-align: center;
+    visibility: hidden;
     opacity: 0;
     -webkit-transition: all ease-in-out .5s;
     transition: all ease-in-out .5s;
@@ -409,6 +429,7 @@ span, p {
   }
   .header .active {
     opacity: 1;
+    visibility: visible;
   }
   .header .dropdown-toggle {
     display: block;
