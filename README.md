@@ -17,12 +17,11 @@ Este repositório contêm a aplicação Easybank.
 A aplicação é um Web Site que referências ao banco fundado em 1977.
 Ela foi criada do zero, além dos códigos que foram feitos por mim.
 **As imagens foram retiradas do site Fron-End MTR**
-O projeto foi criado com o intuito de facilitar o cáculo e a distribuição de gorjetas.
+O projeto foi criado com o intuito de praticar o Desenvolvimento Front-End e melhorar determinadas ferramentas uitlizadas durante a implementação.
 
 Nela contêm o recurso de: 
-- Calcular a gorjeta.
-- Escolher porcentagem de valores. 
-- Redefinir números.
+- Interagir com o layout.
+- Reponsividade.
 
 ## :hammer: Tecnologias
 Este projeto foi feito com as seguintes tecnologias:
@@ -31,4 +30,4 @@ Este projeto foi feito com as seguintes tecnologias:
 - JavaScript 
 - SASS
 
-Acesse o projeto [Clicando Aqui](https://jhonlsn.github.io/Splitter/) 
+Acesse o projeto [Clicando Aqui](https://jhonlsn.github.io/Easybank/) 
