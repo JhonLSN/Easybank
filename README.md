@@ -12,10 +12,11 @@
 </h1>
 
 ## :book: Sobre
-Este repositório contêm a aplicação Splitter.
+Este repositório contêm a aplicação Easybank.
 
-A aplicação é uma plataforma que faz o cáculo de gorjetas.
+A aplicação é um Web Site que referências ao banco fundado em 1977.
 Ela foi criada do zero, além dos códigos que foram feitos por mim.
+**As imagens foram retiradas do site Fron-End MTR**
 O projeto foi criado com o intuito de facilitar o cáculo e a distribuição de gorjetas.
 
 Nela contêm o recurso de: 
